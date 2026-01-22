@@ -1,0 +1,69 @@
+.page{
+  min-height: 100vh;
+  min-width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.signuppage-card{
+  max-width: 50vw;
+  max-height: 50vh;
+  margin-left: 25vw;
+  padding-top: 15vh;
+
+  
+}
+
+fieldset{
+  text-align: center;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(12px);
+
+  box-shadow: 0 8px 32px rgba(0,0,0,0.9);
+  border: 1px solid rgba(255,255,255,0.25);
+
+  color: #EAF2FF;  
+
+}
+
+a{
+  color: #04283a;
+  
+}
+
+a:hover{
+  color: #3a91c1;
+  font-size: larger;
+  
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+input{
+  background: rgb(163, 230, 245);
+  color: #04283a;
+  border: none;
+  border-radius: 5px;
+}
+
+#submit{
+  background: #04283a;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  height: 30px;
+  cursor: pointer;
+}
+#submit:hover{
+  background: #0b405b;
+  padding: 12px;
+  transition: 1s;
+}
